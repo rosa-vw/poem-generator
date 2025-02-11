@@ -20,7 +20,7 @@ h1 {
 form {
   display: flex;
   justify-content: right;
-  margin: 20px 0 25px auto;
+  margin: 20px 0 10px auto;
   max-width: 500px;
 }
 
@@ -41,7 +41,7 @@ form {
   background-color: #de8da1;
   border: none;
   border-radius: 8px;
-  margin-left: 10px;
+  margin-left: 25px;
   padding: 15px 20px;
   font-weight: 600;
   transition: all 150ms ease-in-out;
@@ -49,6 +49,12 @@ form {
 
 .form-button:hover {
   background-color: #c86b85;
+}
+
+.example {
+  margin: 0 auto 25px 200px;
+  font-size: 12px;
+  color: #c86b85;
 }
 
 .poem {
@@ -60,6 +66,20 @@ form {
   line-height: 24px;
   padding: 10px 0 10px 25px;
   border-radius: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
 
 a {
