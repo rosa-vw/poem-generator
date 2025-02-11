@@ -7,28 +7,38 @@
     <title>AI Ode Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Ode Generator</h1>
-    </header>
-    <main>
-      <form action="">
-        <input type="text" placeholder="topic" required />
-        <input type="submit" />
-      </form>
-      <div>This will be the space for the poem</div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/rosa-vw" target="_blank">Rosavw</a>, is
-      open-sourced on
-      <a href="https://github.com/rosa-vw/poem-generator" target="_blank"
-        >GitHub</a
-      >
-      and hosted on
-      <a href="https://poem-generator-rosavw.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+    <div class="generator">
+      <header>
+        <h1>AI Ode Generator</h1>
+      </header>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Enter the topic of your ode"
+            required
+            class="form-text"
+          />
+          <input type="submit" class="form-button" />
+        </form>
+        <div class="poem">
+          This will be the space for the poem <br />
+          And there could be multiple lines
+        </div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/rosa-vw" target="_blank">Rosavw</a>, is
+        open-sourced on
+        <a href="https://github.com/rosa-vw/poem-generator" target="_blank"
+          >GitHub</a
+        >
+        and hosted on
+        <a href="https://poem-generator-rosavw.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="source/script.js"></script>
   </body>
 </html>
